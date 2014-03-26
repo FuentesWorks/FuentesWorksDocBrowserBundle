@@ -1,0 +1,9 @@
+# GitHubController.php
+fuentesworks_docbrowser_github_update:
+    pattern:  /_github/update
+    defaults: { _controller: }
+
+# BrowserController.php
+fuentesworks_docbrowser_browse:
+    pattern:  /+.
+    defaults: { _controller: }
